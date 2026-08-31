@@ -5,6 +5,7 @@ import Details from "@/components/Details";
 import DressCode from "@/components/DressCode";
 import Organizers from "@/components/Organizers";
 import Rsvp from "@/components/Rsvp";
+import MusicPlayer from "@/components/MusicPlayer";
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
       <DressCode />
       <Organizers />
       <Rsvp />
+      <MusicPlayer />
     </main>
   );
 }
