@@ -118,13 +118,13 @@ export default function Hero() {
         />
       </div>
 
-      <h1 className="serif" style={{ margin: "30px 0 0", font: "300 56px/1 var(--font-cormorant), serif" }}>
+      <h1 style={{ margin: "28px 0 0", font: "400 60px/1.15 var(--font-marck), cursive", transform: "translateX(-46px)" }}>
         {WEDDING.groom}
       </h1>
-      <div className="script" style={{ margin: "2px 0", fontSize: 28, lineHeight: 1, color: "var(--green-700)" }}>
-        и
+      <div style={{ margin: "-2px 0", font: "400 34px/1 var(--font-marck), cursive", color: "var(--green-700)" }}>
+        &amp;
       </div>
-      <div className="serif" style={{ font: "300 56px/1 var(--font-cormorant), serif" }}>
+      <div style={{ font: "400 60px/1.15 var(--font-marck), cursive", transform: "translateX(46px)" }}>
         {WEDDING.bride}
       </div>
       <p style={{ margin: "20px auto 0", maxWidth: 280, font: "400 13px/1.7 var(--font-manrope), sans-serif", color: "var(--muted)", textWrap: "pretty" }}>
