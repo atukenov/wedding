@@ -11,6 +11,6 @@ export const WEDDING = {
   mapUrl: "",
   rsvpDeadline: "1 октября",
   // положите файл в public/ и укажите имя, напр. "/hero.mp4"
-  heroVideo: "",
+  heroVideo: "/hero.mp4",
   heroPoster: "",
 };
