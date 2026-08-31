@@ -66,7 +66,7 @@ export default function Details() {
         sub={
           WEDDING.mapUrl ? (
             <a href={WEDDING.mapUrl} target="_blank" rel="noreferrer">
-              {WEDDING.address} — открыть карту
+              {WEDDING.address}
             </a>
           ) : (
             WEDDING.address
