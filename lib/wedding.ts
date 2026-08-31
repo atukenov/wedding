@@ -13,4 +13,6 @@ export const WEDDING = {
   // положите файл в public/ и укажите имя, напр. "/hero.mp4"
   heroVideo: "/hero.mp4",
   heroPoster: "",
+  // фоновая музыка: положите файл в public/ и укажите имя. Пусто — плеера нет.
+  music: "/perfect.mp3",
 };
